@@ -727,12 +727,9 @@ h1 {
     opacity: 0;
     pointer-events: none;
     transition: .4s;
+    padding-bottom: 10px;
   }
   .menu--hamburger {
-    display: none;
-  }
-  .menu--hamburger.is-active {
-    opacity: 0;
     display: none;
   }
   .menu.is-active {
@@ -740,7 +737,7 @@ h1 {
     pointer-events: all;
   }
   .menu__el {
-    margin: 10px;
+    margin: 8px;
   }
   .menu__el a:before, .menu__el a:after {
     transition: 0s;

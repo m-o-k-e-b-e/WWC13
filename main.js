@@ -4,7 +4,7 @@ const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu');
 const hamburgerMenu = document.querySelector('.menu--hamburger');
 const more = document.querySelector('.hamburger__more');
-const active = 'is-active'
+const active = 'is-active';
 
 function toggleClass(e) {
   e.stopPropagation();
