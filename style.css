@@ -729,34 +729,22 @@ h1 {
     transition: .4s;
   }
   .menu--hamburger {
-    top: 351px;
-    padding: 0;
-    transform: translateY(0px);
-    transition: .4s;
-    width: 100vw;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    height: auto;
+    display: none;
   }
   .menu--hamburger.is-active {
     opacity: 0;
+    display: none;
   }
   .menu.is-active {
     opacity: 1;
     pointer-events: all;
-  }
-  .menu .menu__el--hamburger {
-    margin: 20px 0;
-  }
-  .menu .menu__el--hamburger:first-child {
-    margin-top: 10px;
   }
   .menu__el {
     margin: 10px;
   }
   .menu__el a:before, .menu__el a:after {
     transition: 0s;
+    display: none;
   }
   .dropdown-menu {
     position: static;

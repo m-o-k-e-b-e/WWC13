@@ -681,7 +681,6 @@ h1 {
   .nav {
     width: 100vw;
     justify-content: space-evenly;
-    // padding: 0;
   }
 
   .logo--white {
@@ -765,19 +764,11 @@ h1 {
     transition: .4s;
 
     &--hamburger {
-      top: 351px;
-      padding: 0;
-      transform: translateY(0px);
-      transition: .4s; 
-      width: 100vw;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      height: auto;
-      // border-bottom: 2px solid $purple;
+      display: none;
 
       &.is-active {
         opacity: 0;
+        display: none;
       }
     }
 
@@ -786,19 +777,12 @@ h1 {
       pointer-events: all;
     }
 
-    .menu__el--hamburger {
-      margin:20px 0;
-
-      &:first-child {
-        margin-top: 10px;
-      }
-    }
-
     &__el {
       margin: 10px;
 
       a:before, a:after {
         transition: 0s;
+        display: none;
       }
     }
   }
